@@ -15,7 +15,7 @@ RUN set -x                                                  \
 
 
 
-RUN useradd -d /home/hacker -ms /usr/bin/zsh student
+RUN useradd -d /home/hacker -ms /usr/bin/zsh hacker
 USER student
 
 # https://ohmyz.sh/#install
